@@ -1,0 +1,457 @@
+/*
+Colors:
+Teal: #3FBCBE
+Coral: #E8828D
+Periwinkle: #A6C2FF
+Pink: #D9A3D7
+*/
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position:relative;
+    margin: 0;
+    border:0;
+    padding:0;
+}
+/*
+First section: Landing page
+*/
+.landing{
+    overflow:hidden;
+    background-color: #151611;
+    max-height: 100vh;
+}
+#arrow{
+    position: absolute;
+    height: 5vh;
+    width: 3vw;
+    top: 94vh;
+    left: calc(50vw - 1.5vw);
+}
+.landing a{
+    text-decoration: none;
+    color: white;
+}
+.landing h1, h2, h3{
+    position: absolute;
+    color: white;
+    font-family: "Tenor Sans", sans-serif;
+}
+.landing h1{
+    position: absolute;
+    font-size: 68px;
+    width: 800px;
+    text-align: center;
+    top: calc(60vh - 110px);
+    left: calc(50vw - 400px);
+}
+.landing h3{
+    position: absolute;
+    word-spacing: 60px;
+    width: 900px;
+    text-align: center;
+    top: 66vh;
+    left: calc(50vw - calc(900px / 2));
+}
+#icon1{
+    position: absolute;
+    top: 76vh;
+    left: calc(44vw - 15px);
+}
+#icon1 img{
+    height: 30px;
+    width: 30px;
+}
+#icon2{
+    position: absolute;
+    top: 76vh;
+    left: calc(48vw - 15px);
+}
+#icon2 img{
+    height: 30px;
+    width: 30px;
+}
+#icon3{
+    position: absolute;
+    top: 76vh;
+    left: calc(52vw - 15px);
+}
+#icon3 img{
+    height: 30px;
+    width: 30px;
+}
+#icon4{
+    position: absolute;
+    top: 76vh;
+    left: calc(56vw - 15px);
+}
+#icon4 img{
+    height: 30px;
+    width: 30px;
+}
+#header{
+    height: 100vh;
+    align-content: center;
+}
+/*
+Second section: About me
+*/
+.aboutme{
+    background-color: white;
+    height: 100vh;
+    overflow:hidden;
+}
+.aboutme h1{
+    position: absolute;
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+    width: 900px;
+    text-align: center;
+    left: calc(50vw - 450px);
+    top: 10vh;
+}
+.aboutme p,h2, ul{
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+}
+.aboutme h2{
+    color: #551a8b;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    left: 53vw;
+    top: 24vh;
+}
+.aboutme p{
+    font-size: 22px;
+    line-height: 35px;
+    color: black;
+    max-width: 45vw;
+    left: 45vw;
+    top: 34vh;
+}
+#propic{
+    position:absolute;
+    height: 28vw;
+    width: 28vw;
+    left: calc(25vw - 14vw);
+    top: 25vh;
+}
+#purple{
+    color: #551a8b;
+    font-style: italic;
+}
+/*
+Third section: Skills
+*/
+.skills{
+    background-color: #EDEEEF;
+    height: 100vh;
+    overflow:hidden;
+}
+.skills h1{
+    position: absolute;
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+    width: 900px;
+    text-align: center;
+    left: calc(50vw - 450px);
+    top: 5vh;
+}
+.skills h2{
+    position: absolute;
+    font-size: 3vh;
+    font-family: "Tenor Sans", sans-serif;
+    color: #551a8b;
+    width: 20vw;
+    text-align: center;
+    top: 28vh;
+}
+.skills img{
+    height: 17vh;
+    display: block;
+    margin: 0 auto;
+    top: -22vh;
+}
+.inside{
+    opacity: 0;
+    position: absolute;
+    background-color: #EDEEEF;
+    height: 22vh;
+    width: 22vh;
+    border-radius: 50%;
+    left: 4.2vw;
+    top: 1.5vh;
+}
+.inside:hover{
+    opacity: 100;
+}
+.skills h3{
+    color: #551a8b;
+    width: 22vh;
+    font-size: 2vh;
+    text-align: center;
+    top: 5vh;
+}
+.skills p{
+    top: 10vh;
+    width: 22vh;
+    font-size: 2vh;
+    text-align: center;
+    color: black;
+}
+#inst{
+    top: 14vh;
+    font-size: 2.5vh;
+    left: calc(50vw - 200px);
+    width: 400px;
+    text-align: center;
+}
+#bubble{
+    top: 0;
+    height: 25vh;
+}
+#java{
+    position: absolute;
+    left: 10vw;
+    top: 20vh;
+    width: 20vw;
+}
+#unity{
+    position: absolute;
+    left: 30vw;
+    top: 20vh;
+    width: 20vw;
+}
+#unitywhy{
+    left: -.7vw;
+}
+#cs{
+    position: absolute;
+    left: 50vw;
+    top: 20vh;
+    width: 20vw;
+}
+#cswhy{
+    top: -21vh;
+}
+#html{
+    position: absolute;
+    left: 70vw;
+    top: 20vh;
+    width: 20vw;
+}
+#css{
+    position: absolute;
+    left: 10vw;
+    top: 58vh;
+    width: 20vw;
+}
+#js{
+    position: absolute;
+    left: 30vw;
+    top: 58vh;
+    width: 20vw;
+}
+#pyth{
+    position: absolute;
+    left: 50vw;
+    top: 58vh;
+    width: 20vw;
+}
+#jupy{
+    position: absolute;
+    left: 70vw;
+    top: 58vh;
+    width: 20vw;
+}
+/*
+Fourth section: Projects
+*/
+.projects{
+    background-color: white;
+    height: 100vh;
+    overflow:hidden;
+}
+.projects h1{
+    position: absolute;
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+    width: 900px;
+    text-align: center;
+    left: calc(50vw - 450px);
+    top: 5vh;
+}
+.projects img{
+    position: absolute;
+    width: 28vw;
+    max-height: 30vh;
+}
+#skelepun{
+    position: absolute;
+    top: 18vh;
+    left: calc(34vw - 15vw);
+}
+.info{
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    height: 30vh;
+    width: 28vw;
+    opacity: 0;
+}
+.info:hover{
+    opacity: 100;
+}
+.info h3, h4, h5, p{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: .05vw;
+    color: white;
+}
+.info h3{
+    font-family: "Lora", sans-serif;
+    font-size: 5vh;
+    top: 2vh;
+    left: 1vw;
+}
+.info h4{
+    font-size: 2.5vh;
+    top: 13vh;
+    left: 3vw;
+}
+.info h5{
+    font-size: 1.7vh;
+    left: 16.7vw;
+    top: 7.3vh;
+}
+.info p{
+    font-size: 1.8vh;
+}
+#tag1 img{
+    height: auto;
+    width: 6.4vw;
+    top: 21vh;
+    left: 2vw;
+}
+#tag1 p{
+    top: 23.6vh;
+    left: 4.3vw;
+}
+#tag2 img{
+    height: auto;
+    width: 6.4vw;
+    top: 21vh;
+    left: 9vw;
+}
+#tag2 p{
+    top: 23.6vh;
+    left: 11.2vw;
+}
+#link{
+    right: 1vh;
+    top: 1vh;
+}
+.line{
+    height: .2vh;
+    width: 25vw;
+    top: 10vh;
+    left: 1vw;
+    background-color: white;
+}
+.info img{
+    height: 20px;
+    width: 20px;
+}
+#grist{
+    position: absolute;
+    top: 18vh;
+    left: calc(67vw - 15vw);
+}
+#synth{
+    position: absolute;
+    top: 55vh;
+    left: calc(34vw - 15vw);
+}
+#inter{
+    position: absolute;
+    top: 55vh;
+    left: calc(67vw - 15vw);
+}
+#button{
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    bottom: 6vh;
+    left: calc(50vw - 4vw);
+    width: 8vw;
+    height: 4vh;
+    line-height: 4vh;
+    text-align: center;
+    color: white;
+    background-color: #551a8b;
+    border-radius: 10px;
+}
+#button:hover{
+    background-color: #7647a2;
+}
+.projects a{
+    text-decoration: none;
+    color: white;
+
+}
+/*
+Fifth section: contact me
+*/
+.contact{
+    background-color: #26262A;
+    height: 40vh;
+    max-height: 400px;
+    overflow:hidden;
+}
+.contact h1{
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+    width: 900px;
+    text-align: center;
+    left: calc(50vw - 450px);
+    top: 10vh;
+}
+#icone1{
+    position: absolute;
+    top: 26vh;
+    left: calc(44vw - 15px);
+}
+#icone1 img{
+    height: 30px;
+    width: 30px;
+}
+#icone2{
+    position: absolute;
+    top: 26vh;
+    left: calc(48vw - 15px);
+}
+#icone2 img{
+    height: 30px;
+    width: 30px;
+}
+#icone3{
+    position: absolute;
+    top: 26vh;
+    left: calc(52vw - 15px);
+}
+#icone3 img{
+    height: 30px;
+    width: 30px;
+}
+#icone4{
+    position: absolute;
+    top: 26vh;
+    left: calc(56vw - 15px);
+}
+#icone4 img{
+    height: 30px;
+    width: 30px;
+}
