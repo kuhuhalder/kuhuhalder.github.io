@@ -6,43 +6,49 @@
     <title>Kuhu Halder</title>
     <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300|Tenor+Sans|Lora" rel="stylesheet">
-<!--    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300|Tenor+Sans|Lora" rel="stylesheet">-->
-<!--    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
-<!--    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>-->
-<!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>-->
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="stylesheet" href="main.css">-->
-<!--    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Kuhu Halder</title>
     </head>
 </head>
-<body>
+<body id="page-top">
+
 <!--&lt;!&ndash; Navigation Bar &ndash;&gt;-->
-<!--<nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="topNav">-->
+<!--<nav class="navbar navbar-expand-sm fixed-top" id="topNav">-->
 <!--    <div class="container-fluid">-->
 <!--        <a href="#" class="navbar-brand">Kuhu Halder</a>-->
-<!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">-->
 <!--            <span class="navbar-toggler-icon"></span>-->
 <!--        </button>-->
 
-<!--        <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
-
+<!--        <div class="collapse navbar-collapse" id="navbarmenu">-->
 <!--            <ul class="navbar-nav ml-auto">-->
-
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link py-3 px-0 px-lg-4" href="#about">About Me</a>-->
 <!--                </li>-->
-
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link py-3 px-0 px-lg-4" href="#skills">Skills</a>-->
 <!--                </li>-->
-
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link py-3 px-0 px-lg-4" href="#experience">Experience</a>-->
 <!--                </li>-->
-
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link py-3 px-0 px-lg-4" href="#projects">Projects</a>-->
 <!--                </li>-->
-
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link py-3 px-0 px-lg-4" href="#contact">Contact</a>-->
 <!--                </li>-->
@@ -50,9 +56,64 @@
 <!--        </div>-->
 <!--    </div>-->
 <!--</nav>-->
+
+<nav class="navbar navbar-b navbar-trans navbar-expand-md bg-white fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top">Kuhu Halder</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-end"  id="navbarDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll active" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Experience
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="workexperience.html"> Work Experience</a>
+                        <a class="dropdown-item" href="activities.html">Activities/ Leadership</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="project.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href=skills.html>Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="KUHU%20HALDER_RESUME.pdf">Resume</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Blog
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Personal Blog</a>
+                        <a class="dropdown-item" href="https://elysianisticaura.wixsite.com/home">Lifestyle Blog</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="contactme.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!--Landing Page -->
 <div class = "landing">
-    <img src = "images/sunset.jpg" id = "header" >
+    <img src = "images/sunset_new.jpg" id = "header">
     <h1>Kuhu Halder</h1>
+    <p class="intro-subtitle">
+        <span class="text-slider-items">Student,Developer,Web Designer</span>
+        <strong class="text-slider"></strong></p>
     <h3><a href = "#aboutmejump">About</a> <a href = "#skillsjump">Skills</a> <a href = "#projectsjump">Projects</a> <a href = "#contactjump">Contact</a></h3>
     <a href = "https://github.com/kuhuhalder" target ="_blank" id= "icon1">
         <img src = "images/git_icon.png">
@@ -66,67 +127,61 @@
     <a href = "KUHU%20HALDER_RESUME.pdf" target ="_blank" id = "icon4">
         <img src = "images/doc_icon.png">
     </a>
-    <img src = "images/purple_down_arrow.png" id = "arrow">
 </div>
+
+<!--<nav id=main-nav class="navbar navbar-expand navbar-light bg-white  sticky-top">-->
+<!--    <div class="collapse navbar-collapse">-->
+<!--        <ul class="nav navbar-nav mx-auto">-->
+<!--            <li class="nav-item active">-->
+<!--                <a class="nav-link" href="#aboutmejump">about</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#resume">resume</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#xp">experience</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#projects">projects</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#act">activites</a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</nav>-->
+
 <div class = "aboutme">
     <a id = "aboutmejump">
     </a>
-    <h1>About Me</h1>
-    <img height="1334" width="889" src="images/mypic.jpg" class="img-responsive img-circle" alt="">
-    <h2>
-        Hi, I am Kuhu Halder!
-    </h2>
+    <h1 class="section-title">About Me</h1>
+    <img src="images/mypic.jpg" class="profilepic">
+
     <p>
-       I am a first-year computer science student interested in pursuing a career in AI/ML.
+        Hi I am Kuhu! I am a rising sophomore pursuing Computer Science with a minor in Math in Rutgers University - New Brunswick. I am interested in AI and Machine Learning. When I am not coding, I like to paint, draw, bullet journal and listen to music!
+    <br><br>
+        I am actively seeking internship opportunities for 2021.
     </p>
-    <a href = "#skillsjump">
-        <img src = "images/purple_down_arrow.png" id = "arrow">
-    </a>
 </div>
-<div class = "skills">
-    <a id = "skillsjump">
+
+<div class="footer">
+    <a id = "contactjump">
     </a>
-    <h1>Skills</h1>
-    <h2 id = "inst">Hover over icon for more info</h2>
-    <div id = "java">
-        <img src = "images/bubble_4.png" id = "bubble">
-        <img src = "images/java_logo.png" class = "skilllogo">
-        <div class = "inside">
-            <h3>Proficient</h3>
-            <p>Data Structures, Object Oriented Concepts</p>
+    <h1>- Thanks for visiting! -</h1>
+        <div class="social-icons">
+            <a href="" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:kuhu.halder@rutgers.edu" target="_blank">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:rutgers.hackhers@gmail.com" target="_blank">
+                <i class="fa fa-file-text" aria-hidden="true"></i>
+            </a>
         </div>
-        <h2>Java</h2>
     </div>
-    <div id = "pyth">
-        <img src = "images/bubble_1.png" id = "bubble">
-        <img src = "images/python_logo.png" class = "skilllogo">
-        <div class = "inside">
-            <h3>Intermediate</h3>
-            <p>Fundamentals, Pandas</p>
-        </div>
-        <h2>Python</h2>
-    </div>
-    <div id = "machine-learning">
-        <img src = "images/bubble_3.png" id = "bubble">
-        <img src = "images/css_logo.png" class = "skilllogo">
-        <div class = "inside">
-            <h3>Intermediate</h3>
-            <p>Supervised Learning, Unsupervised Learning</p>
-        </div>
-        <h2>Machine Learning</h2>
-    </div>
-    <div id = "html">
-        <img src = "images/bubble_3.png" id = "bubble">
-        <img src = "images/html_logo.png" class = "skilllogo">
-        <div class = "inside">
-            <h3>Fundamentals</h3>
-            <p>Fundamentals, Content Organization, Bootstrap</p>
-        </div>
-        <h2>HTML</h2>
-    </div>
-    <a href = "#projectsjump">
-        <img src = "images/purple_down_arrow.png" id = "arrow">
-    </a>
-</div>
 </body>
 </html>
