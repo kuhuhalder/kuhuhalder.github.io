@@ -5,7 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background: #ecd1ff;
+  background: #f3e6fd;
 }
 
 a {
@@ -479,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    background: #b399d4;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -540,7 +540,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-1.jpg") fixed center center;
+  /*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-1.jpg") fixed center center;*/
   background-size: cover;
   padding: 80px 0;
 }
@@ -1153,7 +1153,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #f3e6fd;
 }
 
 .contact .info i {
@@ -1162,7 +1162,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #effbf9;
+  background: #f3e6fd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1190,13 +1190,13 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #663399;
+  background: #f3e6fd;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #f3e6fd;
 }
 
 .contact .php-email-form .form-group {
@@ -1231,7 +1231,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #663399;
   text-align: center;
   padding: 15px;
 }
